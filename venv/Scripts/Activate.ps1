@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\Administrador\PycharmProjects\PuzzleProject\venv"
+$env:VIRTUAL_ENV="D:\Downloads\game-python-ice-sliding-puzzle\venv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name
