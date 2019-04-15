@@ -1,342 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f9fdc5-ec81-49d3-acd8-e29540d82863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bumper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bumper.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/character7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/characterw0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/characterw1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/characterw2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/character_sprites/characterw3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/coin_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0009.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0015.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0017.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0018.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0020.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0022.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0025.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0026.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0027.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0028.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0029.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0030.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0032.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0033.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0034.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0035.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0036.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0037.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0038.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0039.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0040.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0041.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0042.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0043.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0044.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0045.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0046.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0047.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0049.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0050.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0051.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0052.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0053.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0054.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0055.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0056.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0057.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0058.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0059.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0060.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0061.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0062.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0063.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0064.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0065.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0066.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0067.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0068.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0069.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0070.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0071.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0072.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0073.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0074.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0075.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0076.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0077.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0078.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0079.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0080.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0081.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0082.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0083.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0084.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0085.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0086.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0087.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0088.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0089.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0090.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0091.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0092.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0093.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0094.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0095.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0096.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0097.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0098.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0099.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0171.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0172.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0173.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0174.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0175.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0176.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0178.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0179.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0181.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0182.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0183.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0184.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0185.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0186.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0187.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0188.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0190.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0191.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0193.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0194.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0195.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0196.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0197.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0199.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0202.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0203.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0204.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0205.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0206.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0207.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0210.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0211.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0212.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0213.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0214.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0215.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0216.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0217.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0218.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0219.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0220.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0221.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0222.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0223.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0224.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0225.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0226.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0227.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0228.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0229.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0230.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0231.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0233.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0235.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0236.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0237.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0238.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0239.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0241.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0243.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0244.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0245.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0246.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0247.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0248.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0249.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0250.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0251.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0252.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0253.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0254.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0255.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0257.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0258.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0259.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0260.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0261.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0262.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0263.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0264.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0265.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0266.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0267.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0268.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0269.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/explosion/explosion0270.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gold_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gold_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gold_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gold_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassCorner_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassCorner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassHill_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassHill_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grassRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instructions_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instructions_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/laserBlue01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_big1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_big2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_big3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_big4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_med1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_med2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_small1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_small2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_tiny1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/meteorGrey_tiny2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/playerLife1_orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/playerShip1_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/playerShip1_orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/playerShip2_orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/playerShip3_orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pool_cue_ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pool_cue_ball.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/python_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/python_logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/stoneHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wormGreen.png" beforeDir="false" />
-    </list>
+    <list default="true" id="b8f9fdc5-ec81-49d3-acd8-e29540d82863" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="365">
               <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -463,7 +128,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24554609" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -471,13 +135,13 @@
       <window_info anchor="bottom" id="Inspection Results" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21776815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21776815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37486458" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22535211" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -527,7 +191,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="365">
           <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
