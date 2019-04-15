@@ -2,6 +2,7 @@ import arcade
 import os
 
 SPRITE_SCALING = 0.4
+SPRITE_SCALING_CHAR = 0.4
 SPRITE_NATIVE_SIZE = 128
 SPRITE_SIZE = int(SPRITE_NATIVE_SIZE * SPRITE_SCALING)
 
@@ -9,7 +10,7 @@ SCREEN_WIDTH = SPRITE_SIZE * 16
 SCREEN_HEIGHT = SPRITE_SIZE * 14
 SCREEN_TITLE = "Ice Sliding Puzzle"
 
-MOVEMENT_SPEED = 13
+MOVEMENT_SPEED = 7
 
 
 class Room:
@@ -24,16 +25,9 @@ def setup_room_1():
 
     room.wall_list = arcade.SpriteList()
 
-    for y in (0, 0):
+    for y in (0, SCREEN_HEIGHT - SPRITE_SIZE):
         for x in range(0, SCREEN_WIDTH, SPRITE_SIZE):
             if (x != SPRITE_SIZE * 14) or x == 0:
-                wall = arcade.Sprite("images/ice_block.png", SPRITE_SCALING)
-                wall.left = x
-                wall.bottom = y
-                room.wall_list.append(wall)
-
-    for y in (SCREEN_HEIGHT - SPRITE_SIZE, SCREEN_HEIGHT - SPRITE_SIZE):
-        for x in range(0, SCREEN_WIDTH, SPRITE_SIZE):
                 wall = arcade.Sprite("images/ice_block.png", SPRITE_SCALING)
                 wall.left = x
                 wall.bottom = y
@@ -49,44 +43,23 @@ def setup_room_1():
 
     coordinate_list = [[14 * SPRITE_SIZE, 4 * SPRITE_SIZE],
                        [5 * SPRITE_SIZE, 3 * SPRITE_SIZE],
-                       [6 * SPRITE_SIZE, 7 * SPRITE_SIZE]]
+                       [6 * SPRITE_SIZE, 7 * SPRITE_SIZE],
+                       [14 * SPRITE_SIZE, SPRITE_SIZE - 100],
+                       [16 * SPRITE_SIZE, 6 * SPRITE_SIZE],
+                       [16 * SPRITE_SIZE, 5 * SPRITE_SIZE],
+                       [14 * SPRITE_SIZE, 13 * SPRITE_SIZE]]
 
     for coordinate in coordinate_list:
         wall = arcade.Sprite("images/ice_block.png", SPRITE_SCALING)
+        # wall.boundary_bottom = SPRITE_SIZE * 5
+        # wall.boundary_top = SPRITE_SIZE * 5
+        # wall.boundary_left = SPRITE_SIZE * 5
+        # wall.boundary_right = SPRITE_SIZE * 5
         wall.left = coordinate[0]
         wall.bottom = coordinate[1]
         room.wall_list.append(wall)
 
     room.background = arcade.load_texture("images/background_ice.jpg")
-
-    return room
-
-
-def setup_room_2():
-    room = Room()
-
-    room.wall_list = arcade.SpriteList()
-
-    for y in (0, SCREEN_HEIGHT - SPRITE_SIZE):
-        for x in range(0, SCREEN_WIDTH, SPRITE_SIZE):
-            wall = arcade.Sprite("images/boxCrate_double.png", SPRITE_SCALING)
-            wall.left = x
-            wall.bottom = y
-            room.wall_list.append(wall)
-
-    for x in (0, SCREEN_WIDTH - SPRITE_SIZE):
-        for y in range(SPRITE_SIZE, SCREEN_HEIGHT - SPRITE_SIZE, SPRITE_SIZE):
-            if (y != SPRITE_SIZE * 4 and y != SPRITE_SIZE * 5 and y != SPRITE_SIZE * 6) or x != 0:
-                wall = arcade.Sprite("images/boxCrate_double.png", SPRITE_SCALING)
-                wall.left = x
-                wall.bottom = y
-                room.wall_list.append(wall)
-
-    wall = arcade.Sprite("images/boxCrate_double.png", SPRITE_SCALING)
-    wall.left = 5 * SPRITE_SIZE
-    wall.bottom = 6 * SPRITE_SIZE
-    room.wall_list.append(wall)
-    room.background = arcade.load_texture("images/background_2.jpg")
 
     return room
 
@@ -105,11 +78,12 @@ class MyGame(arcade.Window):
         self.player_sprite = None
         self.player_list = None
         self.physics_engine = None
+        self.collision_list = None
 
     def setup(self):
-        self.player_sprite = arcade.Sprite("images/character.png", SPRITE_SCALING)
+        self.player_sprite = arcade.Sprite("images/character.png", SPRITE_SCALING_CHAR)
         self.player_sprite.center_x = SCREEN_WIDTH - 75
-        self.player_sprite.center_y = 30
+        self.player_sprite.center_y = 175
         self.player_list = arcade.SpriteList()
         self.player_list.append(self.player_sprite)
 
@@ -118,12 +92,12 @@ class MyGame(arcade.Window):
         room = setup_room_1()
         self.rooms.append(room)
 
-        room = setup_room_2()
-        self.rooms.append(room)
-
         self.current_room = 0
 
         self.physics_engine = arcade.PhysicsEngineSimple(self.player_sprite, self.rooms[self.current_room].wall_list)
+
+        self.collision_list = arcade.SpriteList()
+        self.collision_list = self.rooms[self.current_room].wall_list
 
     def on_draw(self):
         arcade.start_render()
@@ -131,7 +105,7 @@ class MyGame(arcade.Window):
         arcade.draw_texture_rectangle(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2,
                                       SCREEN_WIDTH, SCREEN_HEIGHT, self.rooms[self.current_room].background)
 
-        self.rooms[self.current_room].wall_list.draw()
+        self.collision_list.draw()
 
         self.player_list.draw()
 
@@ -146,26 +120,35 @@ class MyGame(arcade.Window):
             elif key == arcade.key.RIGHT:
                 self.player_sprite.change_x = MOVEMENT_SPEED
 
-    def on_key_release(self, key, modifiers):
-        if key == arcade.key.UP or key == arcade.key.DOWN:
-            self.player_sprite.change_y = 0
-        elif key == arcade.key.LEFT or key == arcade.key.RIGHT:
-            self.player_sprite.change_x = 0
+    # def on_key_release(self, key, modifiers):
+    #     if key == arcade.key.UP or key == arcade.key.DOWN:
+    #         self.player_sprite.change_y = 0
+    #     elif key == arcade.key.LEFT or key == arcade.key.RIGHT:
+    #         self.player_sprite.change_x = 0
 
     def update(self, delta_time):
-        self.physics_engine.update()
+        # self.physics_engine.update()
+        self.player_list.update()
+        self.collision_list.update()
 
-        if self.player_sprite.center_x > SCREEN_WIDTH and self.current_room == 0:
-            self.current_room = 1
-            self.physics_engine = arcade.PhysicsEngineSimple(self.player_sprite,
-                                                             self.rooms[self.current_room].wall_list)
-            self.player_sprite.center_x = 0
-        elif self.player_sprite.center_x < 0 and self.current_room == 1:
-            self.current_room = 0
-            self.physics_engine = arcade.PhysicsEngineSimple(self.player_sprite,
-                                                             self.rooms[self.current_room].wall_list)
-            self.player_sprite.center_x = SCREEN_WIDTH
+        # print(self.player_sprite.center_x)
+        # print(self.player_sprite.center_y)
 
+        if len(arcade.check_for_collision_with_list(self.player_sprite, self.collision_list)) > 0:
+            # self.player_sprite.center_x += MOVEMENT_SPEED
+            # self.player_sprite.change_x = 0
+            if self.player_sprite.change_x == -MOVEMENT_SPEED:
+                self.player_sprite.center_x += MOVEMENT_SPEED
+                self.player_sprite.change_x = 0
+            elif self.player_sprite.change_x == MOVEMENT_SPEED:
+                self.player_sprite.center_x -= MOVEMENT_SPEED
+                self.player_sprite.change_x = 0
+            elif self.player_sprite.change_y == -MOVEMENT_SPEED:
+                self.player_sprite.center_y += MOVEMENT_SPEED
+                self.player_sprite.change_y = 0
+            elif self.player_sprite.change_y == MOVEMENT_SPEED:
+                self.player_sprite.center_y -= MOVEMENT_SPEED
+                self.player_sprite.change_y = 0
 
 def main():
     window = MyGame(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
