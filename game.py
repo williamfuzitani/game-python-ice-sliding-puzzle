@@ -10,7 +10,7 @@ SCREEN_WIDTH = SPRITE_SIZE * 16
 SCREEN_HEIGHT = SPRITE_SIZE * 14
 SCREEN_TITLE = "Ice Sliding Puzzle"
 
-MOVEMENT_SPEED = 7
+MOVEMENT_SPEED = 5
 
 
 class Room:
@@ -51,10 +51,6 @@ def setup_room_1():
 
     for coordinate in coordinate_list:
         wall = arcade.Sprite("images/ice_block.png", SPRITE_SCALING)
-        # wall.boundary_bottom = SPRITE_SIZE * 5
-        # wall.boundary_top = SPRITE_SIZE * 5
-        # wall.boundary_left = SPRITE_SIZE * 5
-        # wall.boundary_right = SPRITE_SIZE * 5
         wall.left = coordinate[0]
         wall.bottom = coordinate[1]
         room.wall_list.append(wall)
@@ -83,7 +79,7 @@ class MyGame(arcade.Window):
     def setup(self):
         self.player_sprite = arcade.Sprite("images/character.png", SPRITE_SCALING_CHAR)
         self.player_sprite.center_x = SCREEN_WIDTH - 75
-        self.player_sprite.center_y = 175
+        self.player_sprite.center_y = 25
         self.player_list = arcade.SpriteList()
         self.player_list.append(self.player_sprite)
 
@@ -120,23 +116,12 @@ class MyGame(arcade.Window):
             elif key == arcade.key.RIGHT:
                 self.player_sprite.change_x = MOVEMENT_SPEED
 
-    # def on_key_release(self, key, modifiers):
-    #     if key == arcade.key.UP or key == arcade.key.DOWN:
-    #         self.player_sprite.change_y = 0
-    #     elif key == arcade.key.LEFT or key == arcade.key.RIGHT:
-    #         self.player_sprite.change_x = 0
-
     def update(self, delta_time):
         # self.physics_engine.update()
         self.player_list.update()
         self.collision_list.update()
 
-        # print(self.player_sprite.center_x)
-        # print(self.player_sprite.center_y)
-
         if len(arcade.check_for_collision_with_list(self.player_sprite, self.collision_list)) > 0:
-            # self.player_sprite.center_x += MOVEMENT_SPEED
-            # self.player_sprite.change_x = 0
             if self.player_sprite.change_x == -MOVEMENT_SPEED:
                 self.player_sprite.center_x += MOVEMENT_SPEED
                 self.player_sprite.change_x = 0
